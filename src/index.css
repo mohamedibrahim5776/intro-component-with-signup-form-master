@@ -46,7 +46,7 @@
     padding: 20px 60px;
     margin-bottom: 20px;
     font-size: 25px;
-    width: calc(100% - 14px);
+    width: 100%;
 }
 .container .part2 h1 span {
     font-weight: lighter;
@@ -55,11 +55,11 @@
     display: grid;
     color: black;
     background-color: white;
-    padding: 19px;
+    padding: 19px 0;
     border-radius: 20px;
 }
 .inputs input {
-    padding: 10px 20px;
+    padding: 10px 2px;
     margin-bottom: 40px;
     border-radius: 5px;
     border: 1px solid #cbcbcb;
@@ -115,6 +115,12 @@
         top: 50%;
         transform: translate( 0,-20%);
         text-align: left;
+    }
+    .container .part2 .inputs {
+        padding: 19px ;
+    }
+    .inputs input {
+        padding: 10px 20px;
     }
     .container .part1 h1 , .container .part1 p {
         margin: 0;
