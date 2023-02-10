@@ -48,6 +48,7 @@
     padding: 20px 60px;
     margin-bottom: 20px;
     font-size: 25px;
+    width: calc(100% - 14px);
 }
 .container .part2 h1 span {
     font-weight: lighter;
